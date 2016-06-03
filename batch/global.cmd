@@ -182,9 +182,10 @@ set sysUserVideos=%windir%\system32\config\systemprofile\Videos
 set openFolder="%windir%\explorer.exe"
 
 :: Virtual Drive Letter Related
-set /p virtualDriveLetter=<"%pclTempMain%\tempDriveLetter.tmp"
+set /p virtualPath=<"%temp%\virtualPath.tmp"
+set /p virtualDriveLetter=<"%temp%\virtualDriveLetter.tmp"
 set virtualDriveLetter=%virtualDriveLetter%:
-set virtualTempDriveCreate=subst %virtualDriveLetter% "%pclModuleTempPath%"
+set virtualTempDriveCreate=subst %virtualDriveLetter% "%virtualPath%"
 set virtualTempDriveDestroy=subst %virtualDriveLetter% /d
 :: ---------------------------------------------------------------------------------------
 
