@@ -71,7 +71,7 @@ if %errorlevel%==0 set ostype=win10
 set debugMode=0
 set zeroByteFile=0
 
-set titleText=Global Variable Initialization Script
+set titleText=title Global Variable Initialization Script
 
 set exitStatus=return
 
@@ -422,7 +422,7 @@ set printerSpoolPathWild=%systemroot%\system32\spool\PRINTERS\*
 :: ---------------------------------------------------------------------------------------
 
 
-
+%titleText%
 cls
 set
 echo.
