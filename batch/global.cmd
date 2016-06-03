@@ -71,7 +71,7 @@ if %errorlevel%==0 set ostype=win10
 set debugMode=0
 set zeroByteFile=0
 
-set titleText=Portable Cleaning Lab v%mainVer% %textReleaseType% :: portablecleaninglab.com
+set titleText=Global Variable Initialization Script
 
 set menuItem=999
 set exitStatus=return
