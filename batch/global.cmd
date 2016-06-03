@@ -66,14 +66,13 @@ if %errorlevel%==0 set ostype=win10
 
 
 :: ---------------------------------------------------------------------------------------
-:: PCL Core Begins Here
+:: Misc Stuff
 :: ---------------------------------------------------------------------------------------
 set debugMode=0
 set zeroByteFile=0
 
 set titleText=Global Variable Initialization Script
 
-set menuItem=999
 set exitStatus=return
 
 set fileAccess=0
